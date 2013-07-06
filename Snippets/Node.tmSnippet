@@ -27,7 +27,7 @@ private:
 ${1}::${1}()
 {
   /* Set ROS parameters and other initializations here */
-  ${3:param}
+  ${3:param$0}
 }
 
 int main(int argc, char** argv)

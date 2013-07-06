@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>n.param("${1:key_name}", ${2:variable_name}, ${3:default_value}${2});</string>
+	<string>n.param("${1:key_name}", ${2:variable_name}, ${3:default_value}${4:${2}});</string>
 	<key>name</key>
 	<string>param</string>
 	<key>scope</key>
