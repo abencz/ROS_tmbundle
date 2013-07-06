@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ros::Rate loop_rate(${1:10}); // Reach this function at $1 Hz; adjust sleep() accordingly</string>
+	<string>ros::Rate loop_rate(${1:10}); // Reach this function at $1 Hz; adjust sleep() accordingly
+$0
+loop_rate.sleep();</string>
 	<key>name</key>
 	<string>rate</string>
 	<key>scope</key>
