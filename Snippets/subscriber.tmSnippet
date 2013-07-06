@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ros::Subscriber ${1:name}${2: = sub$0};</string>
+	<key>name</key>
+	<string>subscriber</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>subr</string>
+	<key>uuid</key>
+	<string>2E49939F-69EC-4597-8470-E1592A74F9AA</string>
+</dict>
+</plist>
