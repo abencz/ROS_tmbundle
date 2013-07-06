@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ros::spinOnce();</string>
+	<key>name</key>
+	<string>spinOnce</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>sp1</string>
+	<key>uuid</key>
+	<string>D094749E-49CD-4A9A-B28E-4BF3104FBA11</string>
+</dict>
+</plist>

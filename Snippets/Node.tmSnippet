@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#include &lt;ros/ros.h&gt;
+
+class ${1:ClassName}
+{
+public:
+  ${1}();
+
+private:
+  /**
+  * NodeHandle is the main access point to communications with the ROS system.
+  * The first NodeHandle constructed will fully initialize this node, and the last
+  * NodeHandle destructed will close down the node.
+  */
+  ros::NodeHandle n;
+    
+  /* ROS function links */
+  // ros::Publisher vel_pub_;
+  // ros::Subscriber joy_sub_;
+
+};
+
+${1}::${1}()
+{
+  /* Set ROS parameters and other initializations here */
+  ${3:param}
+}
+
+int main(int argc, char** argv)
+{
+  /**
+  * The ros::init() function needs to see argc and argv so that it can perform
+  * any ROS arguments and name remapping that were provided at the command line. For programmatic
+  * remappings you can use a different version of init() which takes remappings
+  * directly, but for most command-line programs, passing argc and argv is the easiest
+  * way to do it.  The third argument to init() is the name of the node.
+  *
+  * You must call one of the versions of ros::init() before using any other
+  * part of the ROS system.
+  */
+  ros::init(argc, argv, "${2:node_name}");
+  ${1} ${2};
+
+  ros::spin();
+}
+</string>
+	<key>name</key>
+	<string>Node</string>
+	<key>scope</key>
+	<string>source.c++, source.c</string>
+	<key>tabTrigger</key>
+	<string>node</string>
+	<key>uuid</key>
+	<string>4BC7F01F-943D-4180-AF8B-28FDE0E425C4</string>
+</dict>
+</plist>

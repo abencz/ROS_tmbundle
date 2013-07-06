@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>ROS</string>
+	<key>ordering</key>
+	<array>
+		<string>4BC7F01F-943D-4180-AF8B-28FDE0E425C4</string>
+		<string>A91A4D0A-D3A6-47FA-9FD6-66C3209BC79A</string>
+		<string>D094749E-49CD-4A9A-B28E-4BF3104FBA11</string>
+		<string>22B781B8-47AE-44C2-9FB0-894522524007</string>
+	</array>
+	<key>uuid</key>
+	<string>89148E3E-2BF5-4192-98FD-09588AF4B8AB</string>
+</dict>
+</plist>
