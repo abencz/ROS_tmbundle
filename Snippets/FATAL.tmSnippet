@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ROS_FATAL$1($2);$0</string>
+	<key>name</key>
+	<string>FATAL</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>fatal</string>
+	<key>uuid</key>
+	<string>211CFA6D-B0CA-46FA-9F0B-CADAE7EA02B3</string>
+</dict>
+</plist>

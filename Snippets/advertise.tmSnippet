@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>n.advertize&lt;${1:std_msgs::String}&gt;("${2:topic_name}",${3:100});</string>
+	<key>name</key>
+	<string>advertise</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>adv</string>
+	<key>uuid</key>
+	<string>6C93BF08-B5D5-4EEF-BCC8-D9EE757CABB5</string>
+</dict>
+</plist>

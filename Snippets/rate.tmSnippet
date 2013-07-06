@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ros::Rate loop_rate(${1:10}); // Reach this function at $1 Hz; adjust sleep() accordingly</string>
+	<key>name</key>
+	<string>rate</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>rate</string>
+	<key>uuid</key>
+	<string>9AA4E29D-742E-4D79-8831-37400F3E0EE9</string>
+</dict>
+</plist>

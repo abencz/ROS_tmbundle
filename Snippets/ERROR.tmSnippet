@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ROS_ERROR$1($2);$0</string>
+	<key>name</key>
+	<string>ERROR</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>error</string>
+	<key>uuid</key>
+	<string>CADC55BD-0D0A-48C8-B296-35FA7AAE09CA</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ROS_WARN$1($2);$0</string>
+	<key>name</key>
+	<string>WARN</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>warn</string>
+	<key>uuid</key>
+	<string>31C8EE95-6E84-449F-A2BA-1B95D7FC334C</string>
+</dict>
+</plist>

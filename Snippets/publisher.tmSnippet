@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ros::Publisher ${1:name}${2: = adv$0};</string>
+	<key>name</key>
+	<string>publisher</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>pubr</string>
+	<key>uuid</key>
+	<string>3F138A1E-95DE-45A0-8C3A-E50B66871D85</string>
+</dict>
+</plist>
