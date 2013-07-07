@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>publish(${1:msg});</string>
+	<string>${1:var_name} = n.publish(${2:msg});</string>
 	<key>name</key>
 	<string>publish</string>
 	<key>scope</key>

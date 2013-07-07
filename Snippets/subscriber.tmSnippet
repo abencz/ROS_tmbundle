@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ros::Subscriber ${1:name}${2: = sub$0};</string>
+	<string>ros::Subscriber ${1:sub}$0;</string>
 	<key>name</key>
 	<string>subscriber</string>
 	<key>scope</key>
