@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:ClassName}::${2:function_name}(${3:package_name}::$1::Request &amp;req, $3::$1::Response &amp;res){
+	<string>bool ${1:${2:ClassName}::}${3:function_name}(${4:package_name}::${5:ServiceName}::Request &amp;req, $4::$5::Response &amp;res){
   $0
   return true;
 }</string>
