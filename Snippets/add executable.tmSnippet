@@ -3,11 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>add_executable(${1:name} src/${1}.cpp)
-target_link_libraries(${1} ${catkin_LIBRARIES})${2:
-add_dependencies(${1} {3:package_name}_generate_message_cpp)}</string>
+	<string>add_executable(${1:name} ${2:src/${1}.cpp})
+target_link_libraries(${1} \${catkin_LIBRARIES})${3:
+add_dependencies(${1} ${4:package_name}_generate_message_cpp)}</string>
 	<key>name</key>
 	<string>add executable</string>
+	<key>scope</key>
+	<string>source.cmake</string>
+	<key>tabTrigger</key>
+	<string>addex</string>
 	<key>uuid</key>
 	<string>5875D438-FE1A-4CB0-99AB-266E8BAE3ACA</string>
 </dict>
