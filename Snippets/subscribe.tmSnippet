@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:var_name} = n.subscribe("${2:topic_name}",${3:100},${4:callback});$0</string>
+	<string>${1:var_name} = n.subscribe&lt;${2:msgType}&gt;("${3:topic_name}",${4:100},${5:callback}${6:,this});$0</string>
 	<key>name</key>
 	<string>subscribe</string>
 	<key>scope</key>
