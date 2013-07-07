@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>n.advertiseService("${1:service_name}", ${2:function});</string>
+	<key>name</key>
+	<string>advertise service</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>servadv</string>
+	<key>uuid</key>
+	<string>C09C6761-1BC3-4A94-97B6-EB174E2A6E5F</string>
+</dict>
+</plist>

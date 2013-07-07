@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>n.serviceClient&lt;${1:package_name}::${2:ServiceName}&gt;("${3:service_name}");</string>
+	<key>name</key>
+	<string>create service client</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>servc</string>
+	<key>uuid</key>
+	<string>EBDCD1F0-FE8E-4628-8C07-79A410DFC403</string>
+</dict>
+</plist>

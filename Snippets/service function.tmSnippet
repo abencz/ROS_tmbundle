@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:ClassName}::${2:function_name}(${3:package_name}::$1::Request &amp;req, $3::$1::Response &amp;res){
+  $0
+  return true;
+}</string>
+	<key>name</key>
+	<string>service function</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>servfunc</string>
+	<key>uuid</key>
+	<string>1FC49528-E75F-44A2-A9C5-9A6EB4928B14</string>
+</dict>
+</plist>

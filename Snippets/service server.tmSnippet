@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>ros::ServiceServer ${1:name}${2: = servadv$0};</string>
+	<key>name</key>
+	<string>service server</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>servr</string>
+	<key>uuid</key>
+	<string>DE02E4AF-8290-4DBD-8BC0-1B772CC6B4E7</string>
+</dict>
+</plist>
