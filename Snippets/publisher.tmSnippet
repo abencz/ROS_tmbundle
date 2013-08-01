@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>ros::Publisher ${1:pub}$0;</string>
+	<string>ros::Publisher ${1:adv}$0;</string>
 	<key>name</key>
 	<string>publisher</string>
 	<key>scope</key>
