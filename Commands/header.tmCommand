@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+from os import path
+
+filepath = os.getenv('TM_FILEPATH')
+
+snippet = """\
+#ifndef ${1:%s}
+#define ${1}
+${2}
+#endif  // ${1}\
+"""
+
+include_name = 'PATH_FILENAME_H'
+
+if filepath is not None:
+    filepath, file = path.split(filepath)
+    directory = path.basename(filepath)
+    include_name = directory.upper().replace('.', '_') + '_' + file.upper().replace('.', '_')
+
+sys.stdout.write(snippet % include_name)</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>header</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>snippet</string>
+	<key>outputLocation</key>
+	<string>replaceSelection</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>header</string>
+	<key>uuid</key>
+	<string>0A2DB1AC-3049-4BD5-8931-641E716990F9</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
