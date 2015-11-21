@@ -2,32 +2,54 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>description</key>
+	<string>Support for ROS C++ &amp; Python APIs.</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>excludedItems</key>
+		<array>
+		</array>
+		<key>items</key>
+		<array>
+			<string>71BE58B2-E486-4B21-93F1-C208D4914099</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>71BE58B2-E486-4B21-93F1-C208D4914099</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>0A2DB1AC-3049-4BD5-8931-641E716990F9</string>
+					<string>9EFE641F-4C78-4C3B-B5A7-A6760FE4E657</string>
+					<string>6D0B2B9D-62C7-4842-BA28-F3379E887D93</string>
+					<string>CADC55BD-0D0A-48C8-B296-35FA7AAE09CA</string>
+					<string>211CFA6D-B0CA-46FA-9F0B-CADAE7EA02B3</string>
+					<string>1435653A-FCF3-4BA9-AA67-42CD94EE33D0</string>
+					<string>4BC7F01F-943D-4180-AF8B-28FDE0E425C4</string>
+					<string>31C8EE95-6E84-449F-A2BA-1B95D7FC334C</string>
+					<string>5875D438-FE1A-4CB0-99AB-266E8BAE3ACA</string>
+					<string>C09C6761-1BC3-4A94-97B6-EB174E2A6E5F</string>
+					<string>6C93BF08-B5D5-4EEF-BCC8-D9EE757CABB5</string>
+					<string>EBDCD1F0-FE8E-4628-8C07-79A410DFC403</string>
+					<string>A91A4D0A-D3A6-47FA-9FD6-66C3209BC79A</string>
+					<string>65073AF3-69B5-41A7-80AF-CEC5E326DBE0</string>
+					<string>3F138A1E-95DE-45A0-8C3A-E50B66871D85</string>
+					<string>9AA4E29D-742E-4D79-8831-37400F3E0EE9</string>
+					<string>DC38D2C3-948F-45A8-902E-D43B2101F685</string>
+					<string>1FC49528-E75F-44A2-A9C5-9A6EB4928B14</string>
+					<string>DE02E4AF-8290-4DBD-8BC0-1B772CC6B4E7</string>
+					<string>22B781B8-47AE-44C2-9FB0-894522524007</string>
+					<string>D094749E-49CD-4A9A-B28E-4BF3104FBA11</string>
+					<string>2E82F44B-A861-4874-AE97-A28B3359DE9C</string>
+					<string>2E49939F-69EC-4597-8470-E1592A74F9AA</string>
+				</array>
+				<key>name</key>
+				<string>C++</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>ROS</string>
-	<key>ordering</key>
-	<array>
-		<string>4BC7F01F-943D-4180-AF8B-28FDE0E425C4</string>
-		<string>A91A4D0A-D3A6-47FA-9FD6-66C3209BC79A</string>
-		<string>D094749E-49CD-4A9A-B28E-4BF3104FBA11</string>
-		<string>22B781B8-47AE-44C2-9FB0-894522524007</string>
-		<string>6C93BF08-B5D5-4EEF-BCC8-D9EE757CABB5</string>
-		<string>65073AF3-69B5-41A7-80AF-CEC5E326DBE0</string>
-		<string>3F138A1E-95DE-45A0-8C3A-E50B66871D85</string>
-		<string>2E82F44B-A861-4874-AE97-A28B3359DE9C</string>
-		<string>2E49939F-69EC-4597-8470-E1592A74F9AA</string>
-		<string>C09C6761-1BC3-4A94-97B6-EB174E2A6E5F</string>
-		<string>DE02E4AF-8290-4DBD-8BC0-1B772CC6B4E7</string>
-		<string>DC38D2C3-948F-45A8-902E-D43B2101F685</string>
-		<string>EBDCD1F0-FE8E-4628-8C07-79A410DFC403</string>
-		<string>1FC49528-E75F-44A2-A9C5-9A6EB4928B14</string>
-		<string>9AA4E29D-742E-4D79-8831-37400F3E0EE9</string>
-		<string>6D0B2B9D-62C7-4842-BA28-F3379E887D93</string>
-		<string>1435653A-FCF3-4BA9-AA67-42CD94EE33D0</string>
-		<string>31C8EE95-6E84-449F-A2BA-1B95D7FC334C</string>
-		<string>CADC55BD-0D0A-48C8-B296-35FA7AAE09CA</string>
-		<string>211CFA6D-B0CA-46FA-9F0B-CADAE7EA02B3</string>
-		<string>5875D438-FE1A-4CB0-99AB-266E8BAE3ACA</string>
-	</array>
 	<key>uuid</key>
 	<string>89148E3E-2BF5-4192-98FD-09588AF4B8AB</string>
 </dict>
