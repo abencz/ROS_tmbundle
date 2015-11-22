@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:sub} = rospy.Subscriber('${2:topic_name}', ${3:MsgType}, ${4:callback_function})</string>
+	<key>name</key>
+	<string>subscriber</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>subr</string>
+	<key>uuid</key>
+	<string>0F347351-27A9-47B8-B763-570553AF1279</string>
+</dict>
+</plist>

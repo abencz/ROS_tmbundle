@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/usr/bin/env python
+
+import rospy
+
+
+def main():
+	rospy.init_node('${1:node_name}'${2:, anonymous=True})
+	
+	rospy.spin()
+	
+	
+if __name__ == '__main__':
+	try:
+		main()
+	except rospy.ROSInterruptException:
+		pass</string>
+	<key>name</key>
+	<string>Node</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>node</string>
+	<key>uuid</key>
+	<string>1D5AB3A4-AAF9-4A56-AFAC-C4A6D65DB822</string>
+</dict>
+</plist>

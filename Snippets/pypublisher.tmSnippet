@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:pub} = rospy.Publisher('${2:topic_name}', ${3:MsgType}, queue_size=${4:1})</string>
+	<key>name</key>
+	<string>publisher</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>pubr</string>
+	<key>uuid</key>
+	<string>C745EC2F-C597-4F6F-ADA9-DD2AAE199145</string>
+</dict>
+</plist>

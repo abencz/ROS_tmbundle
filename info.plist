@@ -12,6 +12,7 @@
 		<key>items</key>
 		<array>
 			<string>71BE58B2-E486-4B21-93F1-C208D4914099</string>
+			<string>93E7F69B-1B7B-4C5C-A403-76EE56296CDE</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -45,6 +46,21 @@
 				</array>
 				<key>name</key>
 				<string>C++</string>
+			</dict>
+			<key>93E7F69B-1B7B-4C5C-A403-76EE56296CDE</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>1D5AB3A4-AAF9-4A56-AFAC-C4A6D65DB822</string>
+					<string>C745EC2F-C597-4F6F-ADA9-DD2AAE199145</string>
+					<string>961043FE-330B-47D5-A668-9C9F88420EED</string>
+					<string>0F347351-27A9-47B8-B763-570553AF1279</string>
+					<string>281F45B2-C934-4E8C-9B71-4C066E7D0D61</string>
+					<string>9B20EAE3-F864-42C8-8719-BD24091471E8</string>
+					<string>2F068FAD-828C-4D86-8F5D-BCC6DE9C5B4E</string>
+				</array>
+				<key>name</key>
+				<string>Python</string>
 			</dict>
 		</dict>
 	</dict>

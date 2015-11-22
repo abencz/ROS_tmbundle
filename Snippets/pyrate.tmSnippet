@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:rate} = rospy.Rate(${2:10})
+$0
+${1}.sleep()</string>
+	<key>name</key>
+	<string>rate</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>rate</string>
+	<key>uuid</key>
+	<string>961043FE-330B-47D5-A668-9C9F88420EED</string>
+</dict>
+</plist>

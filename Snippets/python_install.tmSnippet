@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>catkin_install_python(PROGRAMS ${1:bin/program}
+  DESTINATION \${CATKIN_PACKAGE_BIN_DESTINATION})$0</string>
+	<key>name</key>
+	<string>python_install</string>
+	<key>scope</key>
+	<string>source.cmake</string>
+	<key>tabTrigger</key>
+	<string>pyi</string>
+	<key>uuid</key>
+	<string>9B20EAE3-F864-42C8-8719-BD24091471E8</string>
+</dict>
+</plist>

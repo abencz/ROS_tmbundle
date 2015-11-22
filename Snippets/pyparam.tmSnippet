@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:param_value} = rospy.get_param('${2:param_name}'${3:, default_value})</string>
+	<key>name</key>
+	<string>param</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>param</string>
+	<key>uuid</key>
+	<string>281F45B2-C934-4E8C-9B71-4C066E7D0D61</string>
+</dict>
+</plist>
