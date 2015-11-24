@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:handle_name_} = n.advertise&lt;${2:std_msgs::String}&gt;("${3:topic_name}",${4:100});</string>
+	<string>${1:handle_name_} = n.advertise&lt;${2:std_msgs::String}&gt;("${3:topic_name}", ${4:100});</string>
 	<key>name</key>
 	<string>advertise</string>
 	<key>scope</key>
