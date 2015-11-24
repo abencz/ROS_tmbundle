@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:timer} = ${2:nh}.createTimer(ros::Duration(${3:1.0}), ${4:callbackFunction}${5:, this});$0</string>
+	<key>name</key>
+	<string>create timer</string>
+	<key>scope</key>
+	<string>source.c++</string>
+	<key>tabTrigger</key>
+	<string>tc</string>
+	<key>uuid</key>
+	<string>F23B6380-E3AE-40B0-B30C-6A983AC83D6E</string>
+</dict>
+</plist>

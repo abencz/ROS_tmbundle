@@ -43,9 +43,11 @@
 					<string>D094749E-49CD-4A9A-B28E-4BF3104FBA11</string>
 					<string>2E82F44B-A861-4874-AE97-A28B3359DE9C</string>
 					<string>2E49939F-69EC-4597-8470-E1592A74F9AA</string>
+					<string>F23B6380-E3AE-40B0-B30C-6A983AC83D6E</string>
+					<string>D7110CDB-395E-4A18-9FB1-8895E325E250</string>
 				</array>
 				<key>name</key>
-				<string>C++</string>
+				<string>C++ Snippets</string>
 			</dict>
 			<key>93E7F69B-1B7B-4C5C-A403-76EE56296CDE</key>
 			<dict>
@@ -60,7 +62,7 @@
 					<string>2F068FAD-828C-4D86-8F5D-BCC6DE9C5B4E</string>
 				</array>
 				<key>name</key>
-				<string>Python</string>
+				<string>Python Snippets</string>
 			</dict>
 		</dict>
 	</dict>

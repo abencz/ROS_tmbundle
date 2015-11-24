@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>void ${1:ClassName}${1/(.+)/(?1:\:\:)/}${2:timerCallback}(const ros::TimerEvent&amp; e)$0</string>
+	<key>name</key>
+	<string>timer callback</string>
+	<key>scope</key>
+	<string>source.c++</string>
+	<key>tabTrigger</key>
+	<string>tcb</string>
+	<key>uuid</key>
+	<string>D7110CDB-395E-4A18-9FB1-8895E325E250</string>
+</dict>
+</plist>
